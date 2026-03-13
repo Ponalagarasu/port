@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pon Alagarasu M | Portfolio</title>
+    <meta name="description"
+        content="MCA Aspirant at Kumaraguru College of Technology. Passionate about Software Development and UI/UX Design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ✦ SCROLL PROGRESS BAR -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ✦ HEADER -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">PONALAGARASU.M</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="mailto:ponalagarasumylsamy@gmail.com" class="btn-hire">
+                <span>Hire Me</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ✦ MOBILE MENU OVERLAY -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home" class="mob-link">Home</a></li>
+            <li><a href="#about" class="mob-link">About</a></li>
+            <li><a href="#skills" class="mob-link">Skills</a></li>
+            <li><a href="#projects" class="mob-link">Projects</a></li>
+            <li><a href="#contact" class="mob-link">Contact</a></li>
+        </ul>
+        <a href="mailto:ponalagarasumylsamy@gmail.com" class="mob-hire">Hire Me</a>
+    </div>
+
+    <main>
+
+        <!-- ✦ HERO SECTION -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="hero-tag animate-tag">
+                    <span class="dot-pulse"></span> Available for opportunities
+                </p>
+                <h1 class="hero-title">
+                    Hello, I'm <br>
+                    <span id="typedName" style="color:var(--accent);">Pon Alagarasu M</span>
+                </h1>
+                <p class="hero-desc">
+                    MCA Aspirant at <span class="highlight">Kumaraguru College of Technology</span>.
+                    A quick learner passionate about <span class="highlight">Software Development</span> &
+                    <span class="highlight">UI/UX Design</span>.
+                </p>
+                <div class="hero-btns">
+                    <a href="https://github.com/Ponalagarasu" target="_blank" class="btn btn-filled">
+                        <i class="fab fa-github"></i> GitHub Profile
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3 class="stat-num" data-target="7.0" data-decimal="1">0</h3>
+                        <p>BCA CGPA</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <h3 class="stat-num" data-target="2" data-decimal="0">0</h3>
+                        <p>Projects Done</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <h3>2027</h3>
+                        <p>MCA Class</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-ring ring-1"></div>
+                <div class="image-ring ring-2"></div>
+                <div class="image-mask">
+                    <img src="profile.jpeg" alt="Pon Alagarasu M">
+                </div>
+                <!-- Floating Badges -->
+                <div class="float-badge badge-top">
+                    <i class="fas fa-code"></i> Developer
+                </div>
+                <div class="float-badge badge-bottom">
+                    <i class="fas fa-palette"></i> UI/UX Designer
+                </div>
+            </div>
+        </section>
+
+        <!-- ✦ ABOUT / EDUCATION SECTION -->
+        <section id="about" class="section container reveal">
+            <div class="section-header">
+                <p class="section-tag">My Journey</p>
+                <h2 class="section-title">Education & <span>Background</span></h2>
+                <p class="section-sub">Building a strong foundation in Computer Science and Technology.</p>
+            </div>
+            <div class="about-grid">
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year">2025 – 2027</span>
+                            <h3>Master of Computer Applications (MCA)</h3>
+                            <p>Kumaraguru College of Technology</p>
+                            <div class="timeline-tags">
+                                <span>Coimbatore</span>
+                                <span>Pursuing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-icon"><i class="fas fa-university"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year">2022 – 2025</span>
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p>Kongu Arts and Science College</p>
+                            <div class="timeline-tags">
+                                <span>CGPA: 7.0</span>
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-icon"><i class="fas fa-school"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-year">2021 – 2022</span>
+                            <h3>Higher Secondary Certificate (HSC)</h3>
+                            <p>Tamil Nadu State Board</p>
+                            <div class="timeline-tags">
+                                <span>Bio Maths</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info reveal">
+                    <h3>Who Am I?</h3>
+                    <p>I'm <strong>Pon Alagarasu M</strong>, a passionate MCA student with a strong interest in
+                        building digital experiences. I love blending logic and design to create applications
+                        that are both functional and beautiful.</p>
+                    <p style="margin-top: 15px;">I enjoy solving real-world problems through Machine Learning
+                        and Web Technologies, and I'm always eager to learn cutting-edge technologies.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Coimbatore, Tamil Nadu</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ponalagarasumylsamy@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/Ponalagarasu</span>
+                        </div>
+                    </div>
+                    <a href="/Resume.pdf" target="_blank" class="btn btn-filled" id="resumeBtn"
+                        style="margin-top: 30px; display: inline-flex;">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✦ SKILLS SECTION -->
+        <section id="skills" class="section container reveal">
+            <div class="section-header">
+                <p class="section-tag">What I Know</p>
+                <h2 class="section-title">Technical <span>Expertise</span></h2>
+                <p class="section-sub">A curated set of skills I've developed through academic projects and
+                    self-learning.</p>
+            </div>
+
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="technical">Technical Skills</button>
+                <button class="tab-btn" data-tab="tools">Tools & Software</button>
+            </div>
+
+            <div class="tab-content active" id="tab-technical">
+                <div class="skills-grid">
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon python"><i class="fab fa-python"></i></span>
+                            <span class="skill-name">Python</span>
+                            <span class="skill-pct">70%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon sql"><i class="fas fa-database"></i></span>
+                            <span class="skill-name">SQL / MySQL</span>
+                            <span class="skill-pct">75%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon html"><i class="fab fa-html5"></i></span>
+                            <span class="skill-name">HTML / CSS</span>
+                            <span class="skill-pct">80%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon ml"><i class="fas fa-brain"></i></span>
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-pct">60%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon net"><i class="fas fa-network-wired"></i></span>
+                            <span class="skill-name">Networking</span>
+                            <span class="skill-pct">65%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-card reveal">
+                        <div class="skill-info">
+                            <span class="skill-icon ux"><i class="fas fa-pencil-ruler"></i></span>
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-pct">72%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" data-width="72"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="tab-tools">
+                <div class="tools-grid">
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(255,109,0,0.15);"><i class="fab fa-python"
+                                style="color:#ffb74d;"></i></div>
+                        <p>Jupyter</p>
+                    </div>
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(66,165,245,0.15);"><i class="fab fa-github"
+                                style="color:#90caf9;"></i></div>
+                        <p>Git / GitHub</p>
+                    </div>
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(0,200,83,0.15);"><i class="fas fa-leaf"
+                                style="color:#69f0ae;"></i></div>
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(253,133,58,0.15);"><i class="fab fa-figma"
+                                style="color:#fd853a;"></i></div>
+                        <p>Figma</p>
+                    </div>
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(124,77,255,0.15);"><i class="fas fa-paint-brush"
+                                style="color:#b388ff;"></i></div>
+                        <p>Canva</p>
+                    </div>
+                    <div class="tool-card reveal">
+                        <div class="tool-icon" style="background: rgba(41,182,246,0.15);"><i class="fas fa-terminal"
+                                style="color:#4fc3f7;"></i></div>
+                        <p>VS Code</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✦ PROJECTS SECTION -->
+        <section id="projects" class="section container reveal">
+            <div class="section-header">
+                <p class="section-tag">My Work</p>
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <p class="section-sub">Real-world problems solved through technology and creativity.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-number">01</div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Machine Learning</span>
+                            <span>Python</span>
+                            <span>Data Science</span>
+                        </div>
+                        <h3>Prediction of Chronic Kidney Disease</h3>
+                        <p>Developed a predictive system using Patient Medical Data and Machine Learning algorithms
+                            (Random Forest, SVM) to assist doctors in early diagnosis and treatment planning with
+                            over 92% accuracy.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ponalagarasu" target="_blank" class="proj-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="proj-link proj-link-demo">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-accent"></div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-number">02</div>
+                    <div class="project-body">
+                        <div class="project-tags">
+                            <span>Web Dev</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <h3>Full-Stack Web Application</h3>
+                        <p>Built a complete full-stack web application with dynamic frontend design,
+                            backend API integration, and a relational database for managing and displaying data
+                            efficiently for real-time use.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ponalagarasu" target="_blank" class="proj-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-accent"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✦ CERTIFICATIONS SECTION -->
+        <section id="certs" class="section container reveal">
+            <div class="section-header">
+                <p class="section-tag">Achievements</p>
+                <h2 class="section-title">Certifications & <span>Awards</span></h2>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Python Basics</h4>
+                    <p>Coursera / NPTEL</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h4>Cyber Security Fundamentals</h4>
+                    <p>Online Course</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                    <h4>Machine Learning</h4>
+                    <p>Self-Learning / Kaggle</p>
+                    <span class="cert-badge">Completed</span>
+                </div>
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                    <h4>Computer Networking</h4>
+                    <p>Cisco NetAcad</p>
+                    <span class="cert-badge">Certified</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ✦ CONTACT SECTION -->
+        <section id="contact" class="section container reveal">
+            <div class="section-header">
+                <p class="section-tag">Let's Talk</p>
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="section-sub">Have an opportunity or just want to say hi? My inbox is always open.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm actively looking for MCA internships and collaborative projects. Whether it's a quick chat or
+                        a big project — I'm all in!</p>
+                    <div class="contact-links">
+                        <a href="mailto:ponalagarasumylsamy@gmail.com" class="contact-link">
+                            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <small>Email</small>
+                                <p>ponalagarasumylsamy@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Ponalagarasu" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+                            <div>
+                                <small>GitHub</small>
+                                <p>github.com/Ponalagarasu</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="contact-link">
+                            <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <small>LinkedIn</small>
+                                <p>https://www.linkedin.com/in/pon-alagarasu-mylsamy-487160292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="fName" class="form-input" placeholder=" " required>
+                        <label for="fName" class="form-label">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="fEmail" class="form-input" placeholder=" " required>
+                        <label for="fEmail" class="form-label">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="fSubject" class="form-input" placeholder=" ">
+                        <label for="fSubject" class="form-label">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="fMessage" class="form-input form-textarea" placeholder=" " required></textarea>
+                        <label for="fMessage" class="form-label">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-filled btn-submit" id="submitBtn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ✦ FOOTER -->
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-logo">PONALAGARASU.M</div>
+            <p>© 2026 Pon Alagarasu M. Crafted with <i class="fas fa-heart" style="color:var(--accent);"></i></p>
+            <div class="footer-socials">
+                <a href="https://github.com/Ponalagarasu" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:ponalagarasumylsamy@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ✦ BACK TO TOP -->
+    <button class="back-top" id="backTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script>
+        // ========================
+        //   SCROLL PROGRESS
+        // ========================
+        const progressBar = document.getElementById('scrollProgress');
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            if (docHeight > 0) progressBar.style.width = (scrollTop / docHeight * 100) + '%';
+        });
+
+        // ========================
+        //   STICKY HEADER
+        // ========================
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // ========================
+        //   ACTIVE NAV LINK
+        // ========================
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(sec => {
+                if (window.scrollY >= sec.offsetTop - 200) current = sec.getAttribute('id');
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+            });
+        });
+
+        // ========================
+        //   HAMBURGER MENU
+        // ========================
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+
+        function toggleMenu() {
+            hamburger.classList.toggle('open');
+            mobileMenu.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+        }
+
+        hamburger.addEventListener('click', toggleMenu);
+        mobileOverlay.addEventListener('click', toggleMenu);
+        document.querySelectorAll('.mob-link').forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+
+        // ========================
+        //   SCROLL REVEAL
+        // ========================
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // ========================
+        //   SKILL BARS
+        // ========================
+        const barObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.width = entry.target.dataset.width + '%';
+                    barObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.4 });
+        document.querySelectorAll('.progress-fill').forEach(bar => barObserver.observe(bar));
+
+        // ========================
+        //   SKILLS TABS
+        // ========================
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        // ========================
+        //   BACK TO TOP
+        // ========================
+        const backTop = document.getElementById('backTop');
+        window.addEventListener('scroll', () => {
+            backTop.classList.toggle('visible', window.scrollY > 500);
+        });
+        backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        // ========================
+        //   CONTACT FORM
+        // ========================
+        document.getElementById('contactForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            btn.disabled = true;
+            setTimeout(() => {
+                btn.style.display = 'none';
+                document.getElementById('formSuccess').style.display = 'flex';
+                document.getElementById('contactForm').reset();
+            }, 1500);
+        });
+
+        // ========================
+        //   SMOOTH SCROLL
+        // ========================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+            });
+        });
+
+        // Fetch dynamic data from Node.js server
+        async function loadDynamicContent() {
+            try {
+                const response = await fetch('/api/data');
+                const data = await response.json();
+                // You can use data.technical_skills etc. here
+            } catch (error) {
+                console.error('Failed to load content:', error);
+            }
+        }
+        window.onload = loadDynamicContent;
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "name": "Pon Alagarasu M",
+    "education": [
+        {
+            "degree": "Master of Computer Applications",
+            "college": "Kumaraguru College of Technology",
+            "period": "2025 – 2027"
+        }
+    ],
+    "technical_skills": [
+        "Python",
+        "SQL",
+        "HTML/CSS",
+        "Machine Learning"
+    ]
+}
